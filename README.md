@@ -3,23 +3,23 @@
 This directory contains the dotfiles for my system
 
 ## Dependencies
-### i3
-### polybar
-### dunst
-### rofi
-### kitty
-### Neovim
-### Zoxide
-### fzf
-### zsh
-### oh my posh
-### fastfetch
-### btop
-### flameshot
-### cava
-### autotiling
-### yay
-### Cascadia Cove font
+- i3
+- polybar
+- dunst
+- rofi
+- kitty
+- Neovim
+- Zoxide
+- fzf
+- zsh
+- oh my posh
+- fastfetch
+- btop
+- flameshot
+- cava
+- autotiling
+- yay
+- Cascadia Cove font
 
 ## Requirements
 
