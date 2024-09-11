@@ -2,6 +2,25 @@
 
 This directory contains the dotfiles for my system
 
+## Dependencies
+### i3
+### polybar
+### dunst
+### rofi
+### kitty
+### Neovim
+### Zoxide
+### fzf
+### zsh
+### oh my posh
+### fastfetch
+### btop
+### flameshot
+### cava
+### autotiling
+### yay
+### Cascadia Cove font
+
 ## Requirements
 
 Ensure you have the following installed on your system
@@ -23,7 +42,7 @@ pacman -S stow
 First, check out the dotfiles repo in your $HOME directory using git
 
 ```
-$ git clone git@github.com/dreamsofautonomy/dotfiles.git
+$ git clone https://github.com/AkihiroAurora/i3wm-dotfiles.git
 $ cd dotfiles
 ```
 
