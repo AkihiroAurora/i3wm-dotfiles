@@ -1,0 +1,12 @@
+Configuration {
+  display-drun: " 󰣆   Apps ";
+  display-window: "    Window";
+  display-run: "    Run ";
+  drun-display-format: "{icon} {name}";
+  font: "CaskaydiaCove Nerd Font 12";
+  modi: "window,run,drun";
+  show-icons: true;
+  icon-theme: "Oranchelo";
+}
+
+@theme "~/.config/rofi/theme"
