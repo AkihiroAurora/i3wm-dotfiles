@@ -22,6 +22,7 @@ This directory contains the dotfiles for my system
 - lf
 - i3lock
 - yay
+- Oranchelo
 - Cascadia Cove font
 
 ## Requirements
