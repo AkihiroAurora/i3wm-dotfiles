@@ -20,6 +20,7 @@ This directory contains the dotfiles for my system
 - autotiling
 - feh
 - lf
+- i3lock
 - yay
 - Cascadia Cove font
 
