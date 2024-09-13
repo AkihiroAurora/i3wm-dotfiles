@@ -18,6 +18,8 @@ This directory contains the dotfiles for my system
 - flameshot
 - cava
 - autotiling
+- feh
+- lf
 - yay
 - Cascadia Cove font
 
