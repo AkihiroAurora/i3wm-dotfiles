@@ -45,7 +45,7 @@ pacman -S stow
 First, check out the dotfiles repo in your $HOME directory using git
 
 ```
-$ git clone https://github.com/AkihiroAurora/i3wm-dotfiles.git
+$ git clone https://github.com/AkihiroAurora/i3wm-dotfiles.git ~/dotfiles
 $ cd dotfiles
 ```
 
