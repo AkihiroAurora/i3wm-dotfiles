@@ -9,4 +9,4 @@ then
 fi
 yay -Syuq --noconfirm --needed neovim zoxide i3-wm autotiling polybar flameshot ttf-cascadia-code-nerd dunst rofi i3lock kitty fzf zsh oh-my-posh fastfetch btop feh lf cava
 cd ~/dotfiles
-stow --dotfiles . 
+stow . 
