@@ -12,9 +12,25 @@ return {
   },
   opts = {
     filesystem = {
-      window = {
-        mappings = {
-          ['\\'] = 'close_window',
+      filtered_items = {
+        visible = false, -- when true, they will just be displayed differently than normal items
+        hide_dotfiles = false,
+        hide_gitignored = false,
+        hide_hidden = false, -- only works on Windows for hidden files/directories
+        hide_by_name = {
+          '.DS_Store',
+          'thumbs.db',
+          'node_modules',
+          '__pycache__',
+          '.virtual_documents',
+          '.git',
+          '.python-version',
+          '.venv',
+        },
+        window = {
+          mappings = {
+            ['\\'] = 'close_window',
+          },
         },
       },
     },

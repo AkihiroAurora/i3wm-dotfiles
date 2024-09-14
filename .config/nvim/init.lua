@@ -1,6 +1,6 @@
 require 'core.options' -- Load general options
 require 'core.keymaps' -- Load general keymaps
-require 'core.autocommands' --Load general autocommands
+require 'core.snippets' --Load general autocommands
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
@@ -15,18 +15,15 @@ vim.opt.rtp:prepend(lazypath)
 
 -- [[ Configure and install plugins ]]
 require('lazy').setup {
-  require 'core.colorscheme',
-  require 'plugins.vim-sleuth',
+  require 'plugins.colorscheme',
   require 'plugins.gitsigns',
-  require 'plugins.which-key',
   require 'plugins.telescope',
   require 'plugins.lsp',
   require 'plugins.autoformat',
   require 'plugins.autocompletion',
-  require 'plugins.autocompletion',
   require 'plugins.mini',
   require 'plugins.treesitter',
-  require 'plugins.autopairs',
   require 'plugins.neo-tree',
   require 'plugins.alpha',
+  require 'plugins.misc',
 }
