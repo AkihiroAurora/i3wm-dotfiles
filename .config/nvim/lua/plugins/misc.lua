@@ -53,12 +53,12 @@ return {
     },
   },
 
-  -- High-performance color highlighter
+  -- Autoclose parentheses, brackets, quotes, etc.
   {
-    'norcalli/nvim-colorizer.lua',
-    config = function()
-      require('colorizer').setup()
-    end,
+    'windwp/nvim-autopairs',
+    event = 'InsertEnter',
+    config = true,
+    opts = {},
   },
 
   -- Highlight todo, notes, etc in comments
